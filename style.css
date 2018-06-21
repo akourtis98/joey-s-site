@@ -1,0 +1,155 @@
+
+body{
+    font-family: monospace;
+    background-color: #f3f3f3;
+}
+.content, .sidebar {
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 0.45px solid lightgray;
+    -webkit-border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.9em 0; 
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.67em 0; 
+}
+
+.body {
+    margin: auto;
+    width: 1100px;
+}
+
+.header p{
+    font-weight: 900;
+    font-size:45px; padding: 40px 40px 0px 40px; margin: 0px;
+}
+
+.content img {
+    width: 310px;
+    height: 330px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 0.5px solid lightgray;
+    float: left;
+    margin: 4% 2.5%;
+}
+
+
+.mainContent {
+    margin-top: 0px;
+    line-height:24px;
+}
+
+.topcontent h4 {
+    font-size: 1.05em;
+    margin-left: 13.5px;
+}
+
+.content p, h2{
+    padding: 30px 20px 0px 10px;
+}
+
+.cont1 {
+    width: 1085px !important;
+    margin-top: 11px !important;
+}
+
+.content {
+    width: 70%;
+    height: 440px;
+    float: left;
+}
+
+.sidebar {
+    width: 27.5%;
+    height: 440px;
+    margin: 0% 0% 0% 1%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.btn {
+    width: 92%;
+}
+
+.sidebar .btn, p {
+    margin: 0px;
+}
+
+.mainFooter {
+    color: black;
+    margin-left: 1%;
+}
+
+.mainContent h1 {
+    margin: 28px 0px 8px 23px; 
+    position:relative; 
+    top:60px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+
+    .body {
+        width: 90%;
+    }
+
+    .topcontent h2, a {
+        margin-left: 4.5px;
+
+    }
+
+    .topcontent h4 {
+        font-size: 1.1em;
+        margin-left: 13.5px;
+    }
+    
+
+    .content img {
+        width: 90%;
+        height: 65%;;
+        margin: 2% ;
+    }
+
+    .mainContent {
+        line-height:30px;
+        overflow: hidden;
+    }
+
+    .sidebar {
+        width: 90%;
+        padding: 10px;
+        height: 435px;
+        margin-left: 0px;
+        margin-top: 0%;
+        background-color: #fff;
+    }
+
+    .content {
+        width: 90% !important;
+        float: left;
+        height: 85%;
+        padding: 15px 10px 10px 10px;
+        margin-top: 2%;
+    }
+
+    .mainContent h1 {
+        margin-bottom: 5px;
+        font-size: 2em;
+    }
+
+    .header {
+        text-align: left !important;
+    }
+    .mainFooter {
+        width: 90%;
+    }
+}
