@@ -26,10 +26,6 @@ h2 {
     margin: 0.67em 0; 
 }
 
-.body {
-    width: 100;
-}
-
 .header {
     font-weight: 900;
     font-size:45px; 
@@ -58,10 +54,6 @@ h2 {
     border-top: 3px solid lightgrey;
     border-bottom: 3px solid lightgrey;
     margin: 15px auto 15px auto !important;
-}
-
-.content p, h2{
-    padding: 10px 20px 0px 10px;
 }
 
 .cont1 {
