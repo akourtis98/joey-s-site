@@ -80,8 +80,12 @@ h2 {
 
     .mainContent {
         line-height:30px;
+        
     }
 
+    .body {
+        overflow-x: hidden;
+    }
     .content, .topcontent {
         width: 90% !important;
         padding: 15px 10px 10px 10px;
@@ -93,6 +97,6 @@ h2 {
         margin: 0px;
     }
     .mainFooter {
-        width: 90%;
+        width: 100%;
     }
 }
