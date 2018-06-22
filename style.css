@@ -80,13 +80,14 @@ h2 {
 
     .mainContent {
         line-height:30px;
-        
+        overflow: hidden;
     }
 
     .body {
         overflow-x: hidden;
     }
     .content, .topcontent {
+        overflow: hidden;
         width: 90% !important;
         padding: 15px 10px 10px 10px;
         margin: 2%;
