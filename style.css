@@ -69,31 +69,23 @@ h2 {
     margin: auto !important;
 }
 
+.share-icons {
+    float: right;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.mainFooter p {display: inline-block;}
+
 .mainFooter {
     color: black;
     width: 1150px;
     margin: auto;
     text-align: left;
     padding: 0px 110px 0px 20px; 
-    position: relative;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 600px) {
-
-    .body {
-        width: 90%;
-    }
-
-    .topcontent h2, a {
-        margin-left: 4.5px;
-
-    }
-
-    .topcontent h4 {
-        font-size: 1.1em;
-        margin-left: 13.5px;
-    }
-    
 
     .mainContent {
         line-height:30px;
