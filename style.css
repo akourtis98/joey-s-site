@@ -93,9 +93,33 @@ h2 {
 
 @media only screen and (min-width: 150px) and (max-width: 600px) {
 
+<<<<<<< HEAD
+=======
+    .body {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .topcontent h2, a {
+        margin-left: 4.5px;
+
+    }
+
+    .topcontent h4 {
+        font-size: 1.1em;
+        margin-left: 13.5px;
+    }
+    
+
+    .content img {
+        width: 90%;
+        height: 65%;;
+        margin: 2% ;
+    }
+
+>>>>>>> d29580c271b90b15eec1ef0b7fd9d0d9f8122582
     .mainContent {
         line-height:30px;
-        overflow: hidden;
     }
 
     .body {
@@ -137,6 +161,7 @@ h2 {
     .mainFooter {
         width: 100%;
     }
+<<<<<<< HEAD
     
     .share-icons a{
         font-size: 25px;
@@ -145,4 +170,6 @@ h2 {
         margin-left: 15px;
         float: left;
     }
+=======
+>>>>>>> d29580c271b90b15eec1ef0b7fd9d0d9f8122582
 }
