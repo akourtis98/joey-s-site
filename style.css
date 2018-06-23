@@ -4,15 +4,16 @@ body{
     background-color: white;
 }
 .content {
-    background-color: white;
+    background: url('https://www.myskillsfuture.sg/content/dam/msf/taxonomy/photo/ICT-Network-Administrator-2.jpg');
+    background-size: 1150px 100%;;
     border-radius: 5px;
     -moz-border-radius: 5px;
     margin: auto;
     border: 0.45px solid lightgray;
     -webkit-border-radius: 5px;
-    width: 100%;
+    width: 1150px;
     margin: auto !important;
-    height: 540px;
+    height: 640px;
     background-color: black;;
 }
 
@@ -60,11 +61,13 @@ h2 {
     margin: auto !important;
 }
 
-.share-icons {
-    float: right;
-    font-size: 20px;
-    display: inline-block;
-}
+.share-icons a{
+        font-size: 20px;
+        margin-right: 21px;
+        margin-bottom: 6px;
+        float: left;
+        display: inline-block;
+    }
 
 .mainFooter p {display: inline-block;}
 
@@ -86,9 +89,17 @@ h2 {
     .body {
         overflow-x: hidden;
     }
-    .content, .topcontent {
-        overflow: hidden;
+
+    .content{
+        height: 300px;
+        background-size: 100% 300px;
         width: 90% !important;
+    }
+    
+    .topcontent {
+        width: 90% !important;
+        overflow: hidden;
+        height: 100%;;
         padding: 15px 10px 10px 10px;
         margin: 2%;
     }
@@ -97,7 +108,16 @@ h2 {
         text-align: left !important;
         margin: 0px;
     }
+
     .mainFooter {
         width: 100%;
+    }
+    
+    .share-icons a{
+        font-size: 25px;
+        margin-right: 25px;
+        margin-bottom: 9px;
+        margin-left: 15px;
+        float: left;
     }
 }
