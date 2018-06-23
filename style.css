@@ -1,7 +1,17 @@
 
 body{
     font-family: monospace;
+    background: #f3f3f3
+}
+
+.full {
     background-color: white;
+    width: 1200px;
+    margin: auto;
+    height: 1200px;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .content {
     background: url('https://www.myskillsfuture.sg/content/dam/msf/taxonomy/photo/ICT-Network-Administrator-2.jpg');
@@ -19,12 +29,14 @@ body{
 
 h2 {
     font-size: 1.5em;
-    margin: 0.9em 0; 
+    margin: 0.67em 0; 
 }
 
-h2 {
-    font-size: 1.5em;
-    margin: 0.67em 0; 
+.header p{
+    text-align: left !important;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -32,7 +44,7 @@ h2 {
     font-size:45px; 
     width: 1150px;
     margin: auto;
-    padding: 40px 110px 0px 40px; 
+    padding: 40px 110px 0px 5px; 
     text-align: left;
 }
 
@@ -90,6 +102,13 @@ h2 {
         overflow-x: hidden;
     }
 
+    .full {
+        height: 300px;
+        background-size: 100% 300px;
+        width: 98% !important;
+        margin-top: -5%;
+    }
+    
     .content{
         height: 300px;
         background-size: 100% 300px;
@@ -106,7 +125,13 @@ h2 {
 
     .header p{
         text-align: left !important;
+        font-size: 30px;
         margin: 0px;
+        padding: 0px;
+    }
+
+    .header {
+        padding: 40px 110px 0px 24px; 
     }
 
     .mainFooter {
