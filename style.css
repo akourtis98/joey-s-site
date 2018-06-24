@@ -80,7 +80,7 @@ h2 {
     width: 1050px;
     margin: auto;
     text-align: left;
-    padding: 0px 110px 0px 20px; 
+    padding: 0px 110px 0px 10px; 
 }
 
 @media only screen and (min-width: 150px) and (max-width: 600px) {
@@ -112,7 +112,7 @@ h2 {
         width: 220px !important;
     }
 
- 
+
     .topcontent {
         width: 90% !important;
         overflow: hidden;
