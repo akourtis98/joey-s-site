@@ -103,9 +103,9 @@ h2 {
     }
     
     .content{
-        height: 240px;
-        background-size: 100% 240px;
-        width: 50% !important;
+        height: 170px;
+        background-size: 100% 100%;
+        width: 220px !important;
     }
 
  
@@ -134,7 +134,7 @@ h2 {
     
     .share-icons a{
         font-size: 25px;
-        margin-right: 25px;
+        margin-right: 20px;
         margin-left: 15px;
         float: left;
     }
