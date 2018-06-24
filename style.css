@@ -96,10 +96,14 @@ h2 {
     }
 
     .full {
-        height: 300px;
+        height: 310px;
         background-size: 100% 300px;
         width: 98% !important;
         margin-top: -5%;
+    }
+
+    .subheader {
+        padding-bottom: 15px;
     }
     
     .content{
@@ -136,6 +140,7 @@ h2 {
         font-size: 25px;
         margin-right: 20px;
         margin-left: 15px;
+        padding-bottom: 10px;
         float: left;
     }
 }
