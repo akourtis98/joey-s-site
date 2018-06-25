@@ -4,32 +4,32 @@ body{
 }
 
 .subheader h3, h4{
-    padding: 10px;
-    margin: 10px;
+    padding: 7px;
+    margin: 5px;
 }
 
 .full {
     background-color: white;
-    width: 1100px;
+    width: 1000px;
     margin: auto;
-    height: 820px;
-    border-radius: 5px;
+    height: 800px;
+    border-radius: 0px;
     margin-top: 2%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); 
     margin-bottom: 2%;
 }
 .content {
     background: url('../newpic.png');
     background-size: 100% 100%;;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
+    border-radius: 0%;
+    -moz-border-radius: 0%;
     position: relative;
     margin: 40px auto 60px auto;
     top: 40px;
     border: 0.45px solid lightgray;
-    -webkit-border-radius: 50%;
+    -webkit-border-radius: 0px;
     width: 240px;
     height: 200px;
-    background-color: black;;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
 .header {
     font-weight: 900;
     font-size:45px; 
-    width: 1050px;
+    width: 950px;
     margin: auto;
     padding: 40px 110px 0px 5px; 
     text-align: left;
@@ -58,7 +58,7 @@ h2 {
 
 .topcontent {
     padding: 5px;
-    width: 1050px !important;
+    width: 950px !important;
     background-color: white;
     border-radius: 4px;
     border-top: 3px solid lightgrey;
@@ -80,10 +80,25 @@ h2 {
     width: 1050px;
     margin: auto;
     text-align: left;
-    padding: 0px 110px 0px 10px; 
+    padding: 0px 110px 0px 30px; 
+}
+
+.footer {
+    color: #323232;
+    padding: 0.7rem 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    border: px solid black;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 600px) {
+
+    .footer {
+        width: 100%;
+
+    }
 
     .mainContent {
         background-color: white;
@@ -93,13 +108,15 @@ h2 {
 
     .body {
         overflow-x: hidden;
+        background-color: #f3f3f3;
     }
 
     .full {
-        height: 310px;
+        height: 100%;
+        box-shadow: 3px 3px 3px 9px rgba(0, 0, 0, 0.1); 
+        margin: 10px;
         background-size: 100% 300px;
-        width: 98% !important;
-        margin-top: -5%;
+        width: 95% !important;
     }
 
     .subheader {
@@ -109,7 +126,7 @@ h2 {
     .content{
         height: 190px;
         background-size: 100% 100%;
-        width: 220px !important;
+        width: 210px !important;
     }
 
 
@@ -134,13 +151,13 @@ h2 {
 
     .mainFooter {
         width: 100%;
+        padding-left: 15px;
     }
     
     .share-icons a{
         font-size: 25px;
-        margin-right: 20px;
-        margin-left: 15px;
-        padding-bottom: 10px;
+        margin-left: 10%;
         float: left;
+        padding-bottom: 10px;
     }
 }
