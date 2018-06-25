@@ -5,8 +5,20 @@ body{
 
 .subheader h3, h4{
     padding: 7px;
+    
     margin: 5px;
-    font-size: 35px;
+    font-size: 30px;
+}
+
+.subheader h3{
+    padding: 7px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.footer p{
+    font-size: 20px;
+    color: #323232;
 }
 
 .full {
@@ -36,11 +48,6 @@ body{
 .mainContent {
     margin-top: 0px;
     line-height:24px;
-}
-
-.topcontent h4 {
-    font-size: 1.05em;
-    margin-left: 13.5px;
 }
 
 hr {
@@ -148,11 +155,11 @@ hr {
     
     .share-icons { 
         padding-left: 50px;
+        text-align: center;
     }
     .share-icons a{
         font-size: 25px;
-        margin-left: 5px;
-        float: left;
+        margin-left: -10px;
         padding-bottom: 10px;
     }
 }
