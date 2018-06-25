@@ -27,7 +27,7 @@ body{
     margin: 40px auto 60px auto;
     top: 40px;
     border: 0.45px solid lightgray;
-    -webkit-border-radius: 0px;
+    -webkit-border-radius: 50%;
     width: 240px;
     height: 200px;
 }
@@ -113,7 +113,7 @@ h2 {
 
     .full {
         height: 100%;
-        box-shadow: 3px 3px 3px 9px rgba(0, 0, 0, 0.1); 
+        box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.1); 
         margin: 10px;
         background-size: 100% 300px;
         width: 95% !important;
