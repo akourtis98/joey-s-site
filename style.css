@@ -19,6 +19,7 @@ body{
 .footer p{
     font-size: 20px;
     color: #323232;
+    margin-top: -10px;
 }
 
 .full {
@@ -41,7 +42,7 @@ body{
     top: 40px;
     border: 0.45px solid lightgray;
     -webkit-border-radius: 50%;
-    width: 240px;
+    width: 210px;
     height: 200px;
 }
 
@@ -153,13 +154,19 @@ hr {
         padding-left: 15px;
     }
     
+    .footer p {
+        margin-top: 0px;
+    }
+
     .share-icons { 
-        padding-left: 50px;
         text-align: center;
+        width: 400px;
+        height: 50px;
     }
     .share-icons a{
-        font-size: 25px;
-        margin-left: -10px;
+        padding-right: 35px;
+        padding-left: 25px;
+        font-size: 25px;    
         padding-bottom: 10px;
     }
 }
